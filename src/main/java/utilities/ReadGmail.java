@@ -56,7 +56,7 @@ public class ReadGmail {
             Gmail service = new Gmail.Builder(HTTP_TRANSPORT, JSON_FACTORY, authorize).setApplicationName(ReadGmail.APPLICATION_NAME).build();
 
             // Access Gmail inbox
-            Gmail.Users.Messages.List request = service.users().messages().list(user).setQ("from:" + "noreply.clearinspect@clearcapital.com");
+            Gmail.Users.Messages.List request = service.users().messages().list(user).setQ("from:" + "intuitivehunter@gmail.com");
             ListMessagesResponse messagesResponse = request.execute();
             request.setPageToken(messagesResponse.getNextPageToken());
 
