@@ -2,6 +2,8 @@ package config;
 
 public class Config {
 
+
+    // Global variables of Client Secret for alternative uses
     public static final String CLIENT_ID = "1043536259077-1td297lfinsd1lbfu3c2h5ls4hskce7e.apps.googleusercontent.com";
     public static final String TOKEN_URI= "https://oauth2.googleapis.com/token";
     public static final String CLIENT_SECRET = "pOUmwM-KUw6aXATAP7Q8DrQJ";
